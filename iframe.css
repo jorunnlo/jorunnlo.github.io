@@ -28,18 +28,7 @@
   height: 320px;
   border: 0
 }
-.map-card{
-  padding: 0;
-}
 
-.map-card h2{
-  padding: 1.5rem 1.5rem 0;
-  margin: 0;
-}
-
-.map-card .map{
-  border-radius: 0 0 1rem 1rem;
-}
 
 
 @media (min-width: 600px){
