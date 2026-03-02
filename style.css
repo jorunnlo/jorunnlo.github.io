@@ -67,7 +67,7 @@ header h1{
   background: rgba(255,255,255,.6);
 }
 
-/* Links */
+/* Linkar a */
 a{
   color: rgb(246, 81, 244);
 }
@@ -82,7 +82,7 @@ a:active{
   text-decoration: none;
 }
 
-/* Images */
+/* IMG */
 img{
   max-width: 100%;
   height: auto;
@@ -103,7 +103,7 @@ img{
   padding: .5rem 0;
 }
 
-/* Side  */
+/* aside  */
 .side{
   display: grid;
   gap: 1rem;
@@ -115,7 +115,6 @@ img{
   color: rgb(87, 8, 67);
   padding: 1rem;
   border-radius: 1rem;
-  overflow: hidden;
   margin: 1rem 0;
 }
 
@@ -180,7 +179,8 @@ footer ul{
   margin-bottom: 1rem;
 }
 
-@media (min-width: 600px){ /* 600px */
+/* sími */
+@media (min-width: 600px){ 
   .col-3{
     grid-template-columns: 1fr 1fr;
   }
@@ -192,7 +192,7 @@ footer ul{
 }
 
 /* iPad */
-@media (min-width: 768px){ /* 768px */
+@media (min-width: 768px){ 
   header h1{
     font-size: 7rem;
   }
@@ -209,8 +209,8 @@ footer ul{
   }
 }
 
-/* Desktop */
-@media (min-width: 960px){ /* 960px */
+/* tölvur */
+@media (min-width: 960px){ 
   header h1{
     font-size: 10rem;
     }
